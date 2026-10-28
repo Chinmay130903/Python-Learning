@@ -1,0 +1,11 @@
+a=int(input("enter int value"))
+b=float(input("enter float value"))
+c=complex(input("enter complex value"))
+d=bool(input("enter boolean value"))
+e=str(input("enter string value"))
+
+print("your enter in value ",a,"\t",type(a))
+print("your enter in value ",b,"\t",type(b))
+print("your enter in value ",c,"\t",type(c))
+print("your enter in value ",d,"\t",type(d))
+print("your enter in value ",e,"\t",type(e))
