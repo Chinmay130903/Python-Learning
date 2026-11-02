@@ -1,0 +1,9 @@
+n=1772737
+input=n
+count=0
+while(input>0):
+    digit=input%10
+    if(digit==7):
+        count+=1
+    input=input//10
+print(count)

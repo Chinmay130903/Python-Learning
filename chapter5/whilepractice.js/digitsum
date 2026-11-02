@@ -1,0 +1,64 @@
+n=int(input("Enter the number of terms: "))
+"""
+sum of digit of a number
+sum=0
+while(n>0):
+    digit=n%10
+    sum=sum+digit
+    n=n//10
+print("sum of digit is",sum)
+"""
+
+"""
+reverse of the digit 
+rev=0
+while(n>0):
+    digit=n%10
+    rev=rev*10+digit
+    n=n//10
+print("reverse of digit is ",rev)
+"""
+
+
+"""
+odd and even digit count
+oddcount=0
+evencount=0
+while(n>0):
+    digit=n%10
+    if(digit%2==0):
+        evencount=evencount+1
+    else:
+        oddcount=oddcount+1
+    n=n//10
+print("count of odd digit is ",oddcount)    
+print("count of even digit is ",evencount)
+
+"""
+if(n==1):
+    print("1 is the prime number")
+elif(n<0 or n%2==0):
+    print(" number is not prime")
+
+""" rule as ahe ki jer konta hi odd number cha root ch equal doni mmultiple ho kiva 
+
+1. both two multiple is equal to root of the number
+2.one of number is equal to root or less thn\an the rooot
+3.one of number is grater than root or it should be equal to the root 
+ for example
+    • Let n = 36.
+• The square root of 36 is 6 (because 6 * 6 = 36).
+• The factor pairs of 36 are:
+	• 1 and 36
+	• 2 and 18
+	• 3 and 12
+	• 4 and 9
+	• 6 and 6
+
+
+method 2
+kva (number -1) priynt 2 pasun number devide krt rahach jer bhetla ter count + elsse count as it is fi count ==2 then prime
+"""
+
+
+       
