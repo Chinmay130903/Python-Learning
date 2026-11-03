@@ -1,0 +1,10 @@
+name=input("Enter name")
+length=len(name)
+leftsapce=(15-length//2)
+rightspace=15-int((length+0.5)/2)
+
+print("*"*30)
+print("*"*30)
+print("*"*(leftsapce)+name+"*"*(rightspace))
+print("*"*30)
+print("*"*30)

@@ -1,0 +1,13 @@
+ch="ravan"
+s=ch.find("ram")
+print(s)
+print(ch.find("a"))
+print(ch.find("av"))
+print(ch.find("va"))
+print(ch.find("ra"))
+print(ch.find("na"))
+print(ch.find("an"))
+print(ch.find("v"))
+print(ch.find("r"))
+print(ch.find("n"))
+print(ch.find("p"))
